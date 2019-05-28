@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 287d240ba9ffc164994fa1e94d0b2a0b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - animancer: {instanceID: 0}
+  - idle: {fileID: 7400002, guid: 82ac2a4744f546442bd54d86f50ac8af, type: 3}
+  - run: {fileID: 7400000, guid: 82ac2a4744f546442bd54d86f50ac8af, type: 3}
+  - prejump: {fileID: 7400010, guid: 82ac2a4744f546442bd54d86f50ac8af, type: 3}
+  - midjump: {fileID: 7400004, guid: 82ac2a4744f546442bd54d86f50ac8af, type: 3}
+  - postjump: {fileID: 7400006, guid: 82ac2a4744f546442bd54d86f50ac8af, type: 3}
+  - prefall: {fileID: 7400012, guid: 82ac2a4744f546442bd54d86f50ac8af, type: 3}
+  - midfall: {fileID: 7400014, guid: 82ac2a4744f546442bd54d86f50ac8af, type: 3}
+  - postfall: {fileID: 7400008, guid: 82ac2a4744f546442bd54d86f50ac8af, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
