@@ -87,7 +87,7 @@ public class Stickman : MonoBehaviour
     }
     private void GroundAnimation()
     {
-        if (vInput > 0)
+        if (vInput > 0 || vInput < 0)
         {
             if (!animancer.IsPlaying(run))
                 animancer.CrossFade(run);
