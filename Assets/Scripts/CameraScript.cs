@@ -25,7 +25,7 @@ public class CameraScript : MonoBehaviour
         float hFactor = Mathf.Abs(hAngleDiff / 200);
         float vFactor = Mathf.Abs(vAngleDiff / 40);
 
-        Debug.Log(vAngleDiff + " vs " + facing.x);
+        // Debug.Log(vAngleDiff + " vs " + facing.x);
 
         if (distance > 20) transform.position += hDispacement.normalized * (distance - 20);
         if (distance < 10) transform.position += hDispacement.normalized * (distance - 10);
