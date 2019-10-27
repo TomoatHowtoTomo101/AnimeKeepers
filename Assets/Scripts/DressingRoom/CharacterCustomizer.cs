@@ -17,6 +17,7 @@ namespace AnimeKeepers
 
         public GameObject customizeSettings;
         public GameObject initialView;
+        public GameObject colorPicker;
 
         public void FindCustomizableBodyParts()
         {
@@ -71,6 +72,7 @@ namespace AnimeKeepers
                     {
                         slider.gameObject.SetActive(false);
                     }
+                    colorPicker.SetActive(false);
                     break;
 
                 case 1: // Boob
@@ -80,6 +82,7 @@ namespace AnimeKeepers
                     }
 
                     customizerSliders[0].gameObject.SetActive(true);
+                    colorPicker.SetActive(false);
                     break;
 
                 case 2: // Butt
@@ -89,6 +92,7 @@ namespace AnimeKeepers
                     }
 
                     customizerSliders[1].gameObject.SetActive(true);
+                    colorPicker.SetActive(false);
                     break;
 
                 case 3: // Hair
@@ -98,6 +102,7 @@ namespace AnimeKeepers
                     }
 
                     customizerSliders[2].gameObject.SetActive(true);
+                    colorPicker.SetActive(true);
                     break;
             }
         }
