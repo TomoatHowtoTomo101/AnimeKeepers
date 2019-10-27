@@ -62,8 +62,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\Characters\BaseCharacterController.cs" />
+    <Compile Include="Assets\Scripts\DressingRoom\CharacterCustomizer.cs" />
+    <Compile Include="Assets\Scripts\DressingRoom\CharacterSelector.cs" />
+    <Compile Include="Assets\Scripts\DressingRoom\CustomizableBodyPart.cs" />
     <Compile Include="Assets\Scripts\Helpers\CameraControls.cs" />
-    <Compile Include="Assets\Scripts\Helpers\CharacterSelector.cs" />
     <Compile Include="Assets\Scripts\Helpers\RotateObject.cs" />
     <Compile Include="Assets\Scripts\Helpers\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\Stickman.cs" />

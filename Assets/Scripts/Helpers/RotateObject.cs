@@ -8,6 +8,23 @@ using UnityEngine;
 public class RotateObject : MonoBehaviour
 {
     public float rotationSpeed;
+    public CameraControls cameraController;
+    private Vector3 lastMousePosition;
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(2))
+        {
+            lastMousePosition = Input.mousePosition;
+        }
+
+        if (Input.GetMouseButton(2))
+        {
+            var mouseDelta = Input.mousePosition - lastMousePosition;
+            transform.Translate(-mouseDelta.x * cameraController.panSpeed, mouseDelta.y * cameraController.panSpeed, 0);
+            lastMousePosition = Input.mousePosition;
+        }
+    }
 
     private void OnMouseDrag()
     {

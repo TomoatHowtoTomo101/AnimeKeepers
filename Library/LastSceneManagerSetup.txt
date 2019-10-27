@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/DevelopmentScenes/LalaArenaTest.unity
+- path: Assets/Scenes/DevelopmentScenes/DressingRoom.unity
   isLoaded: 1
   isActive: 1

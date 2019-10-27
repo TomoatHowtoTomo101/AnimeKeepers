@@ -20,6 +20,7 @@ namespace AnimeKeepers
 
         public CharacterSelectionDatabase[] characterSelector;
         public TextMeshProUGUI characterSelectionText;
+        public CharacterCustomizer charCustomization;
 
         public GameObject intialViewObject;
 
@@ -63,6 +64,8 @@ namespace AnimeKeepers
                         characterSelector[i].character.transform.rotation = Quaternion.Euler(characterSelector[i].startRotation);
                         characterSelector[i].character.SetActive(true);
                         characterSelectionText.text = characterSelector[i].character.name.ToString();
+                        charCustomization.chosenCharacter = characterSelector[i].character.transform;
+                        charCustomization.FindCustomizableBodyParts();
                     }
                     else
                     {
